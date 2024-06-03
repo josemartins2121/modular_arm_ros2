@@ -1,0 +1,1 @@
+/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/include/custom_robot_controller/custom_robot_interface.hpp

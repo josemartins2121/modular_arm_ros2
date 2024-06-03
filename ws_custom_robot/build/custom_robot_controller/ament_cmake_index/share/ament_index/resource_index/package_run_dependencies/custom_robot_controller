@@ -1,0 +1,1 @@
+rclcpp;rclpy;trajectory_msgs;sensor_msgs;hardware_interface;rclcpp_lifecycle;pluginlib;libserial-dev;ros2launch;robot_state_publisher;xacro;controller_manager;ament_lint_auto;ament_lint_common
