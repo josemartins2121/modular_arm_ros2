@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller/slider_control" "TARGETS" "slider_control" "DESTINATION" "lib/custom_robot_controller")

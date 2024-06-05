@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller/libcustom_robot_controller.so" "TARGETS" "custom_robot_controller" "DESTINATION" "lib")

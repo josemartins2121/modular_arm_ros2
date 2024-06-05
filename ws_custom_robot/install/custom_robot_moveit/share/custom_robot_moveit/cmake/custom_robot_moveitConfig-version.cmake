@@ -1,1 +1,0 @@
-/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_moveit/ament_cmake_core/custom_robot_moveitConfig-version.cmake

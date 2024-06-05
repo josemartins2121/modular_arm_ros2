@@ -1,1 +1,0 @@
-/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_moveit/launch/moveit.launch.py
