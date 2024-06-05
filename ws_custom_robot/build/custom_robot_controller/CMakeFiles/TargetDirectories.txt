@@ -1,0 +1,10 @@
+/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller/CMakeFiles/uninstall.dir
+/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller/CMakeFiles/custom_robot_controller_uninstall.dir
+/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller/CMakeFiles/custom_robot_controller.dir
+/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller/CMakeFiles/test.dir
+/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller/CMakeFiles/edit_cache.dir
+/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller/CMakeFiles/rebuild_cache.dir
+/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller/CMakeFiles/list_install_components.dir
+/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller/CMakeFiles/install.dir
+/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller/CMakeFiles/install/local.dir
+/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller/CMakeFiles/install/strip.dir

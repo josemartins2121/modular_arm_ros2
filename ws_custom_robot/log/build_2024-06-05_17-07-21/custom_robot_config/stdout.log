@@ -1,0 +1,53 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/modular_arm_ros2/ws_custom_robot/build/custom_robot_config
+-- Install configuration: ""
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/ament_index/resource_index/package_run_dependencies/custom_robot_config
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/ament_index/resource_index/parent_prefix_path/custom_robot_config
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/environment/ament_prefix_path.sh
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/environment/ament_prefix_path.dsv
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/environment/path.sh
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/environment/path.dsv
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/local_setup.bash
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/local_setup.sh
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/local_setup.zsh
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/local_setup.dsv
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/package.dsv
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/ament_index/resource_index/packages/custom_robot_config
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/cmake/custom_robot_configConfig.cmake
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/cmake/custom_robot_configConfig-version.cmake
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/package.xml
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/launch
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/launch/move_group.launch.py
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/launch/moveit_rviz.launch.py
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/launch/warehouse_db.launch.py
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/launch/rsp.launch.py
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/launch/static_virtual_joint_tfs.launch.py
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/launch/setup_assistant.launch.py
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/launch/spawn_controllers.launch.py
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/launch/demo.launch.py
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config/moveit_controllers.yaml
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config/custom_robot.srdf
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config/initial_positions.yaml
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config/custom_robot.ros2_control.xacro
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config/pilz_cartesian_limits.yaml
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config/kinematics.yaml
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config/custom_robot.urdf.xacro
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config/joint_limits.yaml
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config/ros2_controllers.yaml
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/.setup_assistant
