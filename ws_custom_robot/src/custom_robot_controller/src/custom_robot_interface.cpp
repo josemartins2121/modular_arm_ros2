@@ -45,9 +45,9 @@ CallbackReturn ArduinobotInterface::on_init(const hardware_interface::HardwareIn
     return CallbackReturn::FAILURE;
   }
 
-  position_commands_.reserve(info_.joints.size());
-  position_states_.reserve(info_.joints.size());
-  prev_position_commands_.reserve(info_.joints.size());
+  position_commands_.resize(info_.joints.size(), 0.0);
+  position_states_.resize(info_.joints.size(), 0.0);
+  prev_position_commands_.resize(info_.joints.size(), 0.0);
 
   return CallbackReturn::SUCCESS;
 }
@@ -87,11 +87,13 @@ CallbackReturn ArduinobotInterface::on_activate(const rclcpp_lifecycle::State &p
 {
   RCLCPP_INFO(rclcpp::get_logger("ArduinobotInterface"), "Starting robot hardware ...");
 
-  // Reset commands and states
-  position_commands_ = { 0.0, 0.0, 0.0, 0.0 };
-  prev_position_commands_ = { 0.0, 0.0, 0.0, 0.0 };
-  position_states_ = { 0.0, 0.0, 0.0, 0.0 };
 
+  // Reset commands and states
+  std::fill(position_commands_.begin(), position_commands_.end(), 0.0);
+  std::fill(prev_position_commands_.begin(), prev_position_commands_.end(), 0.0);
+  std::fill(position_states_.begin(), position_states_.end(), 0.0);
+  
+  
   try
   {
     arduino_.Open(port_);
@@ -137,6 +139,7 @@ hardware_interface::return_type ArduinobotInterface::read(const rclcpp::Time &ti
 {
   // Open Loop Control - assuming the robot is always where we command to be
   position_states_ = position_commands_;
+  
   return hardware_interface::return_type::OK;
 }
 
@@ -150,26 +153,11 @@ hardware_interface::return_type ArduinobotInterface::write(const rclcpp::Time &t
   }
 
   std::string msg;
-  int base = static_cast<int>(((position_commands_.at(0) + (M_PI / 2)) * 180) / M_PI);
-  msg.append("b");
-  msg.append(std::to_string(base));
-  msg.append(",");
-  int shoulder = 180 - static_cast<int>(((position_commands_.at(1) + (M_PI / 2)) * 180) / M_PI);
-  msg.append("s");
-  msg.append(std::to_string(shoulder));
-  msg.append(",");
-  int elbow = static_cast<int>(((position_commands_.at(2) + (M_PI / 2)) * 180) / M_PI);
-  msg.append("e");
-  msg.append(std::to_string(elbow));
-  msg.append(",");
-  int gripper = static_cast<int>(((-position_commands_.at(3)) * 180) / (M_PI / 2));
-  msg.append("g");
-  msg.append(std::to_string(gripper));
-  msg.append(",");
-
+  
   try
   {
     RCLCPP_INFO_STREAM(rclcpp::get_logger("ArduinobotInterface"), "Sending new command " << msg);
+    
     arduino_.Write(msg);
   }
   catch (...)

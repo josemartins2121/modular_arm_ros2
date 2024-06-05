@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target custom_robot_controller[0m
+[100%] Built target custom_robot_controller
+-- Install configuration: ""
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/custom_robot_controller.xml
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/lib/libcustom_robot_controller.so
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/include/include
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/include/include/custom_robot_controller
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/include/include/custom_robot_controller/custom_robot_interface.hpp
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/environment/library_path.sh
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/environment/library_path.dsv
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/launch
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/launch/controller.launch.py
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/ament_index/resource_index/package_run_dependencies/custom_robot_controller
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/ament_index/resource_index/parent_prefix_path/custom_robot_controller
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/environment/path.sh
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/environment/path.dsv
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/local_setup.bash
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/local_setup.sh
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/local_setup.zsh
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/local_setup.dsv
+-- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/package.dsv
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/ament_index/resource_index/packages/custom_robot_controller
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/custom_robot_controller
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/cmake/custom_robot_controllerConfig.cmake
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/cmake/custom_robot_controllerConfig-version.cmake
+-- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/package.xml

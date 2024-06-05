@@ -1,0 +1,22 @@
+[01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:86:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   86 | CallbackReturn ArduinobotInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:117:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  117 | CallbackReturn ArduinobotInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:139:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  139 | hardware_interface::return_type ArduinobotInterface::read([01;35m[Kconst rclcpp::Time &time[m[K,
+      |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:140:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  140 |                                                           [01;35m[Kconst rclcpp::Duration &period[m[K)
+      |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:148:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  148 | hardware_interface::return_type ArduinobotInterface::write([01;35m[Kconst rclcpp::Time &time[m[K,
+      |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:149:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  149 |                                                            [01;35m[Kconst rclcpp::Duration &period[m[K)
+      |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K

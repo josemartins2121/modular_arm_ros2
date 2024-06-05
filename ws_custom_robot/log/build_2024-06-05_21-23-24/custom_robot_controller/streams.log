@@ -1,0 +1,60 @@
+[0.012s] Invoking command in '/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller -- -j8 -l8
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target custom_robot_controller[0m
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_robot_controller.dir/src/custom_robot_interface.cpp.o[0m
+[1.908s] [01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[1.908s] [01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:86:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.908s]    86 | CallbackReturn ArduinobotInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[1.908s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.909s] [01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[1.909s] [01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:115:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.909s]   115 | CallbackReturn ArduinobotInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[1.909s]       |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.909s] [01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[1.909s] [01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:137:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.909s]   137 | hardware_interface::return_type ArduinobotInterface::read([01;35m[Kconst rclcpp::Time &time[m[K,
+[1.909s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[1.909s] [01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:138:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.909s]   138 |                                                           [01;35m[Kconst rclcpp::Duration &period[m[K)
+[1.909s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.911s] [01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[1.911s] [01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:146:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.911s]   146 | hardware_interface::return_type ArduinobotInterface::write([01;35m[Kconst rclcpp::Time &time[m[K,
+[1.911s]       |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[1.911s] [01m[K/root/modular_arm_ros2/ws_custom_robot/src/custom_robot_controller/src/custom_robot_interface.cpp:147:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.911s]   147 |                                                            [01;35m[Kconst rclcpp::Duration &period[m[K)
+[1.911s]       |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.790s] [100%] [32m[1mLinking CXX shared library libcustom_robot_controller.so[0m
+[2.950s] [100%] Built target custom_robot_controller
+[2.960s] Invoked command in '/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller -- -j8 -l8
+[2.983s] Invoking command in '/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller
+[2.990s] -- Install configuration: ""
+[2.990s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/custom_robot_controller.xml
+[2.990s] -- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/lib/libcustom_robot_controller.so
+[2.991s] -- Set runtime path of "/root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/lib/libcustom_robot_controller.so" to ""
+[2.991s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/include/include
+[2.991s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/include/include/custom_robot_controller
+[2.991s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/include/include/custom_robot_controller/custom_robot_interface.hpp
+[2.992s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/environment/library_path.sh
+[2.992s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/environment/library_path.dsv
+[2.992s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/launch
+[2.992s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/launch/controller.launch.py
+[2.992s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/ament_index/resource_index/package_run_dependencies/custom_robot_controller
+[2.992s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/ament_index/resource_index/parent_prefix_path/custom_robot_controller
+[2.992s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/environment/ament_prefix_path.sh
+[2.992s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/environment/ament_prefix_path.dsv
+[2.992s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/environment/path.sh
+[2.992s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/environment/path.dsv
+[2.992s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/local_setup.bash
+[2.993s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/local_setup.sh
+[2.993s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/local_setup.zsh
+[2.993s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/local_setup.dsv
+[2.993s] -- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/package.dsv
+[2.993s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/ament_index/resource_index/packages/custom_robot_controller
+[2.993s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/custom_robot_controller
+[2.993s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.993s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[2.993s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.993s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/cmake/custom_robot_controllerConfig.cmake
+[2.993s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/cmake/custom_robot_controllerConfig-version.cmake
+[2.993s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller/share/custom_robot_controller/package.xml
+[2.994s] Invoked command in '/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/modular_arm_ros2/ws_custom_robot/build/custom_robot_controller

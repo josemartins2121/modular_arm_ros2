@@ -1,0 +1,40 @@
+[0.008s] Invoking command in '/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_config': CMAKE_PREFIX_PATH=/root/modular_arm_ros2/ws_custom_robot/install/custom_robot_description:/root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config:/root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller:/root/modular_arm_ros2/ws_custom_robot/install/custom_robot_bringup:/opt/ros/humble /usr/bin/cmake --build /root/modular_arm_ros2/ws_custom_robot/build/custom_robot_config -- -j8 -l8
+[0.039s] Invoked command in '/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_config' returned '0': CMAKE_PREFIX_PATH=/root/modular_arm_ros2/ws_custom_robot/install/custom_robot_description:/root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config:/root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller:/root/modular_arm_ros2/ws_custom_robot/install/custom_robot_bringup:/opt/ros/humble /usr/bin/cmake --build /root/modular_arm_ros2/ws_custom_robot/build/custom_robot_config -- -j8 -l8
+[0.056s] Invoking command in '/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_config': CMAKE_PREFIX_PATH=/root/modular_arm_ros2/ws_custom_robot/install/custom_robot_description:/root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config:/root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller:/root/modular_arm_ros2/ws_custom_robot/install/custom_robot_bringup:/opt/ros/humble /usr/bin/cmake --install /root/modular_arm_ros2/ws_custom_robot/build/custom_robot_config
+[0.062s] -- Install configuration: ""
+[0.062s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/ament_index/resource_index/package_run_dependencies/custom_robot_config
+[0.062s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/ament_index/resource_index/parent_prefix_path/custom_robot_config
+[0.062s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/environment/ament_prefix_path.sh
+[0.062s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/environment/ament_prefix_path.dsv
+[0.062s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/environment/path.sh
+[0.062s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/environment/path.dsv
+[0.062s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/local_setup.bash
+[0.062s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/local_setup.sh
+[0.062s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/local_setup.zsh
+[0.062s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/local_setup.dsv
+[0.062s] -- Installing: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/package.dsv
+[0.062s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/ament_index/resource_index/packages/custom_robot_config
+[0.062s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/cmake/custom_robot_configConfig.cmake
+[0.062s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/cmake/custom_robot_configConfig-version.cmake
+[0.062s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/package.xml
+[0.062s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/launch
+[0.062s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/launch/move_group.launch.py
+[0.063s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/launch/moveit_rviz.launch.py
+[0.063s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/launch/warehouse_db.launch.py
+[0.063s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/launch/rsp.launch.py
+[0.063s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/launch/static_virtual_joint_tfs.launch.py
+[0.063s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/launch/setup_assistant.launch.py
+[0.063s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/launch/spawn_controllers.launch.py
+[0.063s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/launch/demo.launch.py
+[0.063s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config
+[0.063s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config/moveit_controllers.yaml
+[0.063s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config/custom_robot.srdf
+[0.063s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config/initial_positions.yaml
+[0.063s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config/custom_robot.ros2_control.xacro
+[0.063s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config/pilz_cartesian_limits.yaml
+[0.063s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config/kinematics.yaml
+[0.063s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config/custom_robot.urdf.xacro
+[0.063s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config/joint_limits.yaml
+[0.063s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/config/ros2_controllers.yaml
+[0.063s] -- Up-to-date: /root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config/share/custom_robot_config/.setup_assistant
+[0.064s] Invoked command in '/root/modular_arm_ros2/ws_custom_robot/build/custom_robot_config' returned '0': CMAKE_PREFIX_PATH=/root/modular_arm_ros2/ws_custom_robot/install/custom_robot_description:/root/modular_arm_ros2/ws_custom_robot/install/custom_robot_config:/root/modular_arm_ros2/ws_custom_robot/install/custom_robot_controller:/root/modular_arm_ros2/ws_custom_robot/install/custom_robot_bringup:/opt/ros/humble /usr/bin/cmake --install /root/modular_arm_ros2/ws_custom_robot/build/custom_robot_config
