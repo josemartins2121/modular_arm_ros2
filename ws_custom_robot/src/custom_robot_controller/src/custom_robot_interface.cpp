@@ -152,7 +152,28 @@ hardware_interface::return_type ArduinobotInterface::write(const rclcpp::Time &t
     return hardware_interface::return_type::OK;
   }
 
-  std::string msg;
+  std::ostringstream msg_stream;
+  msg_stream << "<";  // Start sequence character
+
+  for (size_t i = 0; i < info_.joints.size(); ++i)
+  {
+    // Extract the index from the joint name assuming the format is "joint_<index>"
+    std::string joint_name = info_.joints[i].name;
+    size_t underscore_pos = joint_name.find('_');
+    if (underscore_pos != std::string::npos)
+    {
+      int joint_index = std::stoi(joint_name.substr(underscore_pos + 1));
+      msg_stream << joint_index << "," << std::fixed << std::setprecision(2) << position_commands_[i];
+      if (i < info_.joints.size() - 1)
+      {
+        msg_stream << ";";  // Separator between joint commands
+      }
+    }
+  }
+
+  msg_stream << ">";  // End sequence character
+
+  std::string msg = msg_stream.str();
   
   try
   {
