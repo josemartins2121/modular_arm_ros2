@@ -22,3 +22,46 @@ This repository contains the following components:
 ### firmware
 
 - **Firmware**: Includes all implemented firmware for the hardware modules accompanying each link of the manipulator. 
+
+### Prerequisites
+
+* Setup Docker
+* Download Docker compose file 
+* Initialize a Docker container based on the humble-desktop
+```sh
+DOCKER_IMAGE=humble-desktop docker compose run --name custom_name cpu
+
+```
+* Install ROS 2 missing libraries
+```sh
+sudo apt-get update && sudo apt-get install -y \
+     ros-humble-joint-state-publisher-gui \
+     ros-humble-gazebo-ros \
+     ros-humble-xacro \
+     ros-humble-ros2-control \
+     ros-humble-moveit \
+     ros-humble-ros2-controller \
+     ros-humble-gazebo-ros2-control 
+```
+* Install  C++ additional libraries
+```sh
+sudo apt-get update && sudo apt-get install -y \
+     libserial-dev \
+```
+
+### Installation
+
+1. Clone the repo
+```sh
+git clone [https://github.com/josemartins2121/modular_arm_ros2.git]
+```
+2. Build the ROS 2 workspace
+```sh
+cd ~/ws_custom_robot
+```sh
+colcon build
+```
+3. Source the project
+```sh
+. install/setup.bash
+```
