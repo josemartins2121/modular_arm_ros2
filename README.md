@@ -14,14 +14,11 @@ This repository contains the following components:
 
 ### docker_image
 
-- **docker-compose file**: Contains a Docker Compose configuration file to run a pre-configured Humble-ROS container. This container is set up with appropriate configurations to support the robotic manipulator project.
-
+- **docker-compose file**: Contains a Docker Compose configuration file to run a pre-configured Humble-ROS container. 
 ### ws_custom_robot
 
-- **ROS Packages**: Collection of all developed ROS (Robot Operating System) packages specific to the anthropomorphic robotic manipulator project. These packages include modules for visualization, planning, control, and communication with the hardware modules.
+- **ROS Packages**: Collection of all developed ROS (Robot Operating System) packages, these packages include modules for visualization, planning, control, and communication with the hardware modules.
 
 ### firmware
 
-- **Firmware**: Includes all implemented firmware for the hardware modules accompanying each 3D printable link of the manipulator. The firmware enables independent joint control and communication with the ROS software via a CAN-based OpenCyPhaL network.
-
-Each section of the repository plays a crucial role in the development, simulation, and validation of the modular anthropomorphic robotic manipulator system.
+- **Firmware**: Includes all implemented firmware for the hardware modules accompanying each link of the manipulator. 
