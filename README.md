@@ -25,9 +25,10 @@ This repository contains the following components:
 
 ### Prerequisites
 
-* Setup Docker
-* Download Docker compose file 
-* Initialize a Docker container based on the humble-desktop
+* Setup [Docker] (https://docs.docker.com/engine/install/ubuntu/)
+* Download [Docker compose file] (https://github.com/josemartins2121/modular_arm_ros2/tree/main/docker_image)
+* Go the save folder as docker compose is saved 
+* Initialize a humble-desktop Docker container
 ```sh
 DOCKER_IMAGE=humble-desktop docker compose run --name custom_name cpu
 
@@ -58,10 +59,24 @@ git clone [https://github.com/josemartins2121/modular_arm_ros2.git]
 2. Build the ROS 2 workspace
 ```sh
 cd ~/ws_custom_robot
-```sh
 colcon build
 ```
 3. Source the project
 ```sh
 . install/setup.bash
 ```
+
+
+## Usage
+
+To launch Rviz, to visualize the current manipulator configuration
+```sh
+ros2 launch custom_robot_description display.launch.py
+```
+
+To launch the robot simulation and control, connect the Serial Node to the PC 
+```sh
+ros2 launch custom_robot_bringup custom_robot_bringup.launch.py
+```
+
+
